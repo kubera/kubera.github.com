@@ -1,16 +1,9 @@
 ---
-layout: home
+layout: welcome
+
 ---
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}
-            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-          </a>
-      </li>
-    {% endfor %}
-  </ul>
+ <div class="text-center">        
+  <img class="circular" src="https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11208586_1596699727213864_1958685864_n.jpg" >
+  <p>contact me <a href="mailto:user@example.com">user (at) example.com</a></p>
 </div>
