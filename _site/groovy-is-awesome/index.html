@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="/public/stylesheets/styles.css">
     <link rel="stylesheet" href="/public/stylesheets/pygment_trac.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
-    <link rel="canonical" href="kubera.github.io/testtest">
+    <link rel="canonical" href="kubera.github.io/groovy-is-awesome">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
       <link rel="icon" type="image/x-icon"  href="/favicon.ico" />
-    <title>Test post | Stefan Wagner</title>
+    <title>Groovy is awesome! | Stefan Wagner</title>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -55,13 +55,17 @@
 
       
           <div class="post-title">
-    <h1>Test post</h1>
-    <p class="text-muted">30 Nov 2014 | <i class="fa fa-tag"></i>
+    <h1>Groovy is awesome!</h1>
+    <p class="text-muted">21 Jan 2016 | <i class="fa fa-tag"></i>
   
     
   
   
-  <a class="text-muted" href="/tags/#test_tag">test_tag</a>
+  <a class="text-muted" href="/tags/#groovy">groovy</a>,
+  
+  <a class="text-muted" href="/tags/#grails">grails</a>,
+  
+  <a class="text-muted" href="/tags/#gradle">gradle</a>
   
 
 
@@ -69,14 +73,50 @@
 
 </div>
             
-  <h3 id="the-standard-lorem-ipsum-passage-used-since-the-1500s">The standard Lorem Ipsum passage, used since the 1500s</h3>
-<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+  <p>In my last project I worked for the <em>Swiss Nation Bank</em> in Zürich. We developed a web application showing some tables with lots of numbers: <a href="https://data.snb.ch/">data.snb.ch</a>.</p>
 
-<p>The standard Lorem Ipsum passage, used since the 1500s</p>
+<p>We used Grails 3 which uses <em>groovy</em> as the main technology. With groovy you can really focus on your business problems. You have very little boilerplate code.</p>
 
-<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+<p>Here some cool stuff I really like in groovy.</p>
 
-<p><img src="/images/local/fingerkey-1.jpg" alt="test" /></p>
+<p>Working with strings:</p>
+
+<div class="highlight"><pre><code class="language-groovy" data-lang="groovy"><span class="kt">def</span> <span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;Groovy is awesome!&#39;</span>
+<span class="k">assert</span> <span class="n">text</span><span class="o">[</span><span class="mi">10</span><span class="o">..</span><span class="mi">16</span><span class="o">]</span> <span class="o">==</span> <span class="s1">&#39;awesome&#39;</span>
+<span class="k">assert</span> <span class="n">text</span> <span class="o">-</span> <span class="s1">&#39; is awesome!&#39;</span> <span class="o">==</span> <span class="s1">&#39;Groovy&#39;</span>
+<span class="k">assert</span> <span class="n">text</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">isLetter</span><span class="o">()</span>
+<span class="k">assert</span> <span class="n">text</span><span class="o">[</span><span class="mi">0</span><span class="o">].</span><span class="na">isUpperCase</span><span class="o">()</span>
+<span class="k">assert</span> <span class="n">text</span><span class="o">[</span><span class="mi">6</span><span class="o">].</span><span class="na">isWhitespace</span><span class="o">()</span></code></pre></div>
+
+<p>Working with lists and maps:</p>
+
+<div class="highlight"><pre><code class="language-groovy" data-lang="groovy"><span class="n">List</span> <span class="n">emptyList</span> <span class="o">=</span> <span class="o">[]</span>
+<span class="kt">def</span> <span class="n">countries</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;England&quot;</span><span class="o">,</span> <span class="s2">&quot;Switzerland&quot;</span><span class="o">,</span> <span class="s2">&quot;France&quot;</span><span class="o">]</span>
+<span class="k">assert</span> <span class="n">countries</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span> <span class="o">==</span> <span class="s2">&quot;Switzerland&quot;</span>
+<span class="n">countries</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;Italy&quot;</span>
+<span class="k">assert</span> <span class="n">countries</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="s2">&quot;Italy&quot;</span><span class="o">)</span>
+<span class="n">Map</span> <span class="n">emptyMap</span> <span class="o">=</span> <span class="o">[:]</span>
+<span class="kt">def</span> <span class="n">country</span> <span class="o">=</span> <span class="o">[</span><span class="nl">name:</span> <span class="s2">&quot;Switzerland&quot;</span><span class="o">,</span> <span class="nl">capital:</span> <span class="s2">&quot;Bern&quot;</span><span class="o">,</span> <span class="nl">population:</span> <span class="mi">8211700</span><span class="o">]</span>
+<span class="k">assert</span> <span class="n">country</span><span class="o">.</span><span class="na">name</span> <span class="o">==</span> <span class="s2">&quot;Switzerland&quot;</span></code></pre></div>
+
+<p>The elvis operator is very useful:</p>
+
+<div class="highlight"><pre><code class="language-groovy" data-lang="groovy"><span class="kt">def</span> <span class="n">text</span>
+<span class="k">assert</span> <span class="s1">&#39;not null&#39;</span> <span class="o">==</span> <span class="n">text</span> <span class="o">?:</span> <span class="s1">&#39;not null&#39;</span>
+<span class="n">text</span> <span class="o">=</span> <span class="s1">&#39;Hi!&#39;</span>
+<span class="k">assert</span> <span class="s1">&#39;Hi!&#39;</span> <span class="o">==</span> <span class="n">text</span> <span class="o">?:</span> <span class="s1">&#39;not null&#39;</span></code></pre></div>
+
+<p>Avoid null pointer exception:</p>
+
+<div class="highlight"><pre><code class="language-groovy" data-lang="groovy"><span class="kd">class</span> <span class="nc">Country</span> <span class="o">{</span>
+    <span class="n">Capital</span> <span class="n">capital</span>
+<span class="o">}</span>
+<span class="kd">class</span> <span class="nc">Capital</span> <span class="o">{</span>
+    <span class="n">String</span> <span class="n">name</span>
+<span class="o">}</span>
+<span class="kt">def</span> <span class="n">switzerland</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Country</span><span class="o">()</span>
+<span class="n">println</span> <span class="n">switzerland</span><span class="o">?.</span><span class="na">capital</span><span class="o">?.</span><span class="na">name</span></code></pre></div>
+
 
     
 <div class="share-btns">
@@ -85,7 +125,7 @@
 
 
  
-<a class="btn btn-small btn-sm twitter" href="http://twitter.com/share?text=Test post"
+<a class="btn btn-small btn-sm twitter" href="http://twitter.com/share?text=Groovy is awesome!"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
