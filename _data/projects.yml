@@ -1,0 +1,52 @@
+- name: ePublications
+  description: Statistical economical data, which were published before in print version, are now browsable online in dynamic tables.
+  project_url: http://data.snb.ch
+  client: Swiss National Bank SNB
+  client_url: http://snb.ch
+  employer: Canoo Engineering AG Basel
+  employer_url: http://www.canoo.com
+  technologies:
+    - Java 7
+    - Groovy
+    - Grails 3
+    - AngularJS
+    - TypeScript
+    - Web (HTML, CSS, Less, JS)
+    - JBoss
+    - Spock
+  tools:
+    - SVN
+    - Gradle
+    - Intellij Idea
+    - Continuous Integration with Hudson
+    - Atlassian Jira
+    - Scrum
+  category:
+    - banking
+    - government
+
+- name: ICOS Automated Omni-channel Client Onboarding
+  description: Banking onboarding web-client, life cycle management and business modelling tool.
+  project_url: http://www.imtf.com/solutions/icos/
+  client: IMTF Group
+  client_url: http://www.imtf.com/
+  employer: Canoo Engineering AG Basel
+  employer_url: http://www.canoo.com
+  technologies:
+    - Java 8
+    - Web-Components Polimer
+    - Spring Boot
+    - Web (HTML, CSS, Sass, JS)
+    - Dolphin-Platform
+    - JPA
+  tools:
+    - Git
+    - Gradle
+    - Intellij Idea
+    - Atlassian Jira
+    - Scrum
+    - Gitlab
+    - CI Teamcity
+    - Sonar
+  category:
+    - banking
