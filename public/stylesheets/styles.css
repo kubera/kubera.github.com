@@ -108,6 +108,9 @@ h1 {
 h2 {
   font-size: 24px;
 }
+h2, .project-title {
+  color: #EC4E3B;
+}
 
 h4, h5, h6 {
   color: #e8e8e8;
@@ -131,11 +134,11 @@ a:hover {
   color: #EC4E3B;
 }
 
-a, .mainlink {
+a, .project-link {
   color: #EC4E3B;
 }
 
-a, .mainlink:hover {
+a, .project-link:hover {
   color: #49B1F7;
 }
 

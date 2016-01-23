@@ -58,7 +58,7 @@
 - name: CTI Research Project Talentmatching
   description: Matching through ontologies of vacancies and job seekers.
   project_url: https://www.kti.admin.ch/kti/en/home.html
-  client: x28
+  client: x28 Thalwil
   client_url: http://x28.ch
   employer: University of Applied Sciences Northwestern Switzerland FHNW
   employer_url: http://www.fhnw.ch
@@ -80,5 +80,31 @@
     - Sonar
   category:
     - human resources
-  start: 2014-1-1
+  start: 2014-3-1
   end: 2014-5-31
+
+- name: Reporting tool for a health insurance
+  description: Analyzing the telephone logging entries with an OLAP data structure.
+  project_url:
+  client: Swica Krankenversicherung
+  client_url: http://www.swica.ch/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW
+  employer_url: http://www.fhnw.ch
+  technologies:
+    - Java 7
+    - Play framework
+    - Scala
+    - Web (HTML, CSS, jQuery, Twitter Bootstrap)
+    - JPA
+    - multidimensional database OLAP cube
+  tools:
+    - Git
+    - sbt
+    - Eclipse
+    - Gitlab
+    - CI Hudson
+    - Sonar
+  category:
+    - health insurance
+  start: 2014-1-1
+  end: 2014-2-28
