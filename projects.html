@@ -7,7 +7,8 @@ layout: projects
 <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-home"></i> home</a>
 <br/>
 <div class="projects">
-{% for project in site.data.projects %}
+{% assign projects = site.data.projects | sort: 'start' %}
+{% for project in projects reversed %}
   {% assign mod = forloop.index | modulo: 2 %}
 
   {% if mod == 1 %}
@@ -16,6 +17,7 @@ layout: projects
     <div class="col-md-6 post-nav">
       <h2><a class="mainlink" href="{{ project.project_url }}">{{ project.name }}</a></h2>
       <p class="text-muted">{{ project.description }}</p>
+      <p class="text-muted">{{ project.start | date: "%B %Y" }} - {{ project.end | date: "%B %Y" }}</p>
       <p class="text-muted">Build for: <a href="{{ project.client_url }}">{{ project.client }}</a></p>
       <p class="text-muted">Employed at: <a href="{{ project.employer_url }}">{{ project.employer }}</a></p>
       <p class="text-muted">Technologies: {{ project.technologies | join: ', ' }}</p>

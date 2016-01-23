@@ -24,6 +24,8 @@
   category:
     - banking
     - government
+  start: 2015-09-01
+  end: 2016-01-31
 
 - name: ICOS Automated Omni-channel Client Onboarding
   description: Banking onboarding web-client, life cycle management and business modelling tool.
@@ -50,3 +52,33 @@
     - Sonar
   category:
     - banking
+  start: 2015-06-1
+  end: 2016-08-31
+
+- name: CTI Research Project Talentmatching
+  description: Matching through ontologies of vacancies and job seekers.
+  project_url: https://www.kti.admin.ch/kti/en/home.html
+  client: x28
+  client_url: http://x28.ch
+  employer: University of Applied Sciences Northwestern Switzerland FHNW
+  employer_url: http://www.fhnw.ch
+  technologies:
+    - Java 8
+    - Spring
+    - Spring MVC
+    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Ajax)
+    - JPA
+    - MySql
+    - Tomcat 8
+  tools:
+    - Git
+    - Maven
+    - Eclipse
+    - Scrum
+    - Gitlab
+    - CI Hudson
+    - Sonar
+  category:
+    - human resources
+  start: 2014-01-01
+  end: 2014-05-31
