@@ -25,7 +25,9 @@ layout: projects
       <p class="text-muted">Build for: <a href="{{ project.client_url }}">{{ project.client }}</a></p>
       <p class="text-muted">Employed at: <a href="{{ project.employer_url }}">{{ project.employer }}</a></p>
       <p class="text-muted">Technologies: {{ project.technologies | join: ', ' }}</p>
+      {% if project.tools %}
       <p class="text-muted">Tools: {{ project.tools | join: ', ' }}</p>
+      {% endif %}
     </div>
   {% if mod == 0 %}
     </div>

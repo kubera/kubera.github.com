@@ -80,8 +80,32 @@
     - Sonar
   category:
     - human resources
+  start: 2014-08-01
+  end: 2015-05-31
+
+- name: Research Project Wiki History Book
+  description: Base on a student project, which calculats the links between famous people in the english wikipedias, building three versions of a graphical representation.
+  project_url: http://ol19ns18004.fhnw.ch:8080/wikihistorybook/json-d3js/
+  client: Professor Dr. Peter Gloor from the MIT
+  client_url: http://cci.mit.edu/pgloor/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute of 4D Technologies
+  employer_url: http://www.fhnw.ch/engineering/i4ds/
+  technologies:
+    - Java Applet
+    - Graph Stream
+    - Javascript D3js
+    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Ajax)
+    - SVG
+    - Tomcat 8
+  tools:
+    - Git
+    - Maven
+    - Eclipse
+    - Gitlab
+  category:
+    - research
   start: 2014-03-01
-  end: 2014-05-31
+  end: 2014-07-31
 
 - name: Reporting tool for a health insurance
   description: Analyzing the telephone logging entries with an OLAP data structure.
@@ -136,3 +160,160 @@
     - health furtherance
   start: 2013-12-31
   end: 2013-05-01
+
+- name: CTI Special Action, Visualisation of Statistics
+  description: Analysis of performace problems in Canoos ULC framework.
+  project_url: http://riasuite.canoo.com/
+  client: Canoo Engineering AG
+  client_url: http://www.canoo.com/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
+  technologies:
+    - Java 6
+    - Canoo ULC framework based on Java Swing
+  tools:
+    - SVN
+    - Gradle
+    - Intellij Idea
+  category:
+    - framework
+  start: 2013-02-01
+  end: 2013-04-30
+
+- name: CTI Research Project eRanger
+  description: Development of a Modelling Notation and Modelling Application.
+  project_url: https://www.junisphere.net/solution/erealityr-suite/
+  client: Junisphere Systems AG
+  client_url: https://www.junisphere.net/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
+  technologies:
+    - Java 7
+    - Spring
+    - Spring-MVC
+    - OSGI
+    - NoSql-Graph-Database Neo4j
+    - JSP
+    - Web (HTML, CSS, Dojo, Ajax)
+    - Orix-Webmodeller
+  tools:
+    - Mercurial
+    - Confluence
+    - Jira
+    - Maven
+    - Eclipse
+    - Scrum
+    - CI Jenkins
+    - Sonar
+  category:
+    - application, monitoring tool
+  start: 2012-02-01
+  end: 2013-01-31
+
+- name: Athene-Modeller
+  description: Meta modelling tool to develop graphical modeling languages.
+  project_url:
+  client: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  client_url: http://www.fhnw.ch/business/iwi
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
+  technologies:
+    - Java 6
+    - Spring
+    - Spring-MVC
+    - OSGI
+    - Web (HTML, CSS, Ajax)
+    - Orix-Webmodeller
+    - MySql
+  tools:
+    - SVN
+    - Maven
+    - Eclipse
+  category:
+    - application, modeling tool
+  start: 2011-04-01
+  end: 2012-01-31
+
+- name: CTI Research Project DokLife
+  description: Semantic analysis of documents like contracts with automated tagging with metadata.
+  project_url:
+  client: Symfact AG
+  client_url: http://www.symfact.com/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
+  technologies:
+    - Java 6
+  tools:
+    - Protégé
+    - Gate
+  category:
+    - application, semantic analysis
+  start: 2010-06-01
+  end: 2010-03-31
+
+- name: Allianz Collective Life
+  description: Development and maintenance of the web appllication supporting the seconed pillar department.
+  project_url: https://www.allianz.ch/de/unternehmenskunden/
+  client_url: https://www.allianz.ch/
+  client: Allianz Suisse AG
+  employer: Allianz Suisse AG
+  employer_url: https://www.allianz.ch/
+  technologies:
+    - Java 5
+    - JSP and Ice-Faces
+    - EJB
+    - JBPM
+    - Hibernate
+    - JBoss
+  category:
+    - application, monitoring tool
+  start: 2009-09-01
+  end: 2010-05-31
+
+- name: ETH Inspire
+  description: Developing of a Java-GUI using existing matlab functions.
+  project_url:
+  client_url: https://www.inspire.ethz.ch/
+  client: ETH Inspire
+  employer: ETH Inspire
+  employer_url: https://www.inspire.ethz.ch/
+  technologies:
+    - Java 5
+    - SWT Jameica framework
+    - Matlab builder JA
+    - Domain model generation with EMF
+    - Persistence with EMF
+  tools:
+    - Eclipse
+    - SVN
+    - Ant
+    - Trac
+  category:
+    - application, monitoring tool
+  start: 2009-03-01
+  end: 2009-07-31
+
+- name: Swisslife Private Life
+  description: Developing of a Java-GUI for the old contract system writen in C.
+  project_url:
+  client_url: http://www.swisslife.ch/de/home/private.html
+  client: Swisslife AG
+  employer: Swisslife AG
+  employer_url: http://www.swisslife.ch/
+  technologies:
+    - Java 4
+    - Java Swing
+    - Weblogic
+    - XSLT
+  tools:
+    - Eclipse
+    - Clear-Case
+    - Ant
+    - XMLSpy
+    - SnipSnap
+    - Mercury Testdirector
+    - PL/Sql Developer
+  category:
+    - application, monitoring tool
+  start: 2005-06-15
+  end: 2007-11-30
