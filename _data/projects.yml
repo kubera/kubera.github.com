@@ -60,8 +60,8 @@
   project_url: https://www.kti.admin.ch/kti/en/home.html
   client: x28 Thalwil
   client_url: http://x28.ch
-  employer: University of Applied Sciences Northwestern Switzerland FHNW
-  employer_url: http://www.fhnw.ch
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute of 4D Technologies
+  employer_url: http://www.fhnw.ch/engineering/i4ds/
   technologies:
     - Java 8
     - Spring
@@ -88,8 +88,8 @@
   project_url:
   client: Swica Krankenversicherung
   client_url: http://www.swica.ch/
-  employer: University of Applied Sciences Northwestern Switzerland FHNW
-  employer_url: http://www.fhnw.ch
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
   technologies:
     - Java 7
     - Play framework
@@ -108,3 +108,31 @@
     - health insurance
   start: 2014-1-1
   end: 2014-2-28
+
+- name: CTI Research Project Furtherance of Health at Work
+  description: Webapp for jung people at work to improve there health and detect health problems early (development and operation).
+  project_url: http://www.companion-app.ch/
+  client: Gesundheitsförderung Schweiz
+  client_url: http://gesundheitsfoerderung.ch/
+  employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
+  employer_url: http://www.fhnw.ch/business/iwi
+  technologies:
+    - Java 7
+    - Play framework
+    - Scala
+    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Websockets)
+    - JPA
+    - MySql
+    - nginx proxy
+  tools:
+    - Git
+    - sbt
+    - Eclipse
+    - Scrum
+    - Gitlab
+    - CI Hudson
+    - Sonar
+  category:
+    - health furtherance
+  start: 2013-12-31
+  end: 2013-5-1
