@@ -14,7 +14,7 @@ twitter: "https://twitter.com/railsr7"  #Add your twitter url here.
 
 #disqus comment
 disqus:
-    shortname: "test" #replace with your disqus comment short name
+    shortname: "kuberaatgithub" #replace with your disqus comment short name
 
 #google analytics
 google:
