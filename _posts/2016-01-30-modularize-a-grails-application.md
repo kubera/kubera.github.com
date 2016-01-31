@@ -20,6 +20,8 @@ I saw the [blog of Klaus Lehner][klaus-lehner-blog] and his conclusions of grail
 ![examples dependency tree](/images/blog/dependency-tree.dracula.png)
 
 To have full comfort in development, as described above, the common, front and backend are grails plugins and grails applications. You are able to run each one. The main application bundles front and backend to one application. You can find the [code on github][grails-modular].
+I used the layout example from [mrhaki][mrhaki] and split it into the three modules.
 
 [klaus-lehner-blog]: https://www.catalysts.cc/diskussion/grails-in-large-projects-part-3/
 [grails-modular]: https://github.com/kubera/grails-modular
+[mrhaki]: http://mrhaki.blogspot.ch/2011/03/grails-goodness-applying-layouts-in.html
