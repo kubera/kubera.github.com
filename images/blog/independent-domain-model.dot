@@ -1,0 +1,64 @@
+digraph independentDomainModel {
+	rankdir = "LR"
+	bgcolor="#222A30"
+	edge[color="#A3BFC6"]
+	node[color="#A3BFC6", fontcolor="#A3BFC6"]
+
+    {   rank=same;
+        "domainModel" [style = solid, fontcolor="#EC4E3B"];
+        invis1 [style = invis];
+        invis2 [style=invis];
+        "domainModel" -> invis1 -> invis2 [style=invis];
+    }
+
+	subgraph cluster_Presentation {
+		label = "Presentation Layer"
+		color="#A3BFC6"
+        fontcolor="#A3BFC6"
+        style="dashed"
+
+		"ui" [label="    UI Module   "]
+
+        invis3 [style=invis, label="                     "];
+        ui -> invis3 [style=invis];
+	}
+
+	subgraph cluster_Business {
+		label = "Business Layer"
+		color="#A3BFC6"
+        fontcolor="#A3BFC6"
+        style="dashed"
+
+		"core" [label="  Core Module  "]
+		"other" [label="Other Module"]
+
+		core -> other
+	}
+
+	subgraph cluster_Persistence {
+		label = "Persistence Layer"
+		color="#A3BFC6"
+        fontcolor="#A3BFC6"
+        style="dashed"
+
+		"persistApi" [label="Persistence API"]
+		"persistImpl" [label="Persistence Impl"]
+
+		invis4 [style=invis, label="                     "];
+        persistApi -> invis4 [style=invis];
+	}
+
+    "domainModel" -> "ui"[style=invis];
+    invis1 -> "core"[style=invis];
+    invis2 -> "persistApi"[style=invis];
+
+	"domainModel" [label="Domain Model"]
+
+    edge[constraint=false, style=solid];
+	ui -> { domainModel, core }
+	core -> { domainModel, persistApi }
+	persistApi -> domainModel
+    persistImpl -> { persistApi, domainModel }
+    other -> domainModel
+
+}
