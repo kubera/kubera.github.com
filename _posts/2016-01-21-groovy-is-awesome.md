@@ -3,9 +3,7 @@ title: "Groovy is awesome!"
 tags: [groovy, grails, gradle]
 ---
 
-In my last project I worked for the _Swiss Nation Bank_ in Zürich. We developed a web application showing some tables with lots of numbers: [data.snb.ch](https://data.snb.ch/).
-
-We used Grails 3 which uses _groovy_ as the main technology. With groovy you can really focus on your business problems. You have very little boilerplate code.
+In my last project, we used Grails 3 which uses _groovy_ as the main technology. With groovy you can really focus on your business problems. You have very little boilerplate code.
 
 Here some cool stuff I really like in groovy.
 
@@ -51,4 +49,3 @@ class Capital {
 def switzerland = new Country()
 println switzerland?.capital?.name
 {% endhighlight %}
-  

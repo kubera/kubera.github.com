@@ -3,7 +3,7 @@ title: "Define your Architecture with Maven"
 tags: [maven, architecture]
 ---
 
-I find it pretty cool how you can define the architecture of your software in maven. You can have your modules in layers like a presentation, a business-logic and a persistence layer.
+Maven is not just a build and dependency management tool, it also offers a way how to define the architecture of your software. You can have your modules in layers like a presentation, a business-logic and a persistence layer. 
 
 Lets suppose your architecture looks like the following image.
 
