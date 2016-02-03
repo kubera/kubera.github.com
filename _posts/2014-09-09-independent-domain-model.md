@@ -9,4 +9,4 @@ In the current project we made a design decision for our domain model to be inde
 
 The domain model is overall available, each module depends on it. Beside of representing the domain, it also acts as a data transfer object. The implementation of the persistence is capsuled behind a module of interfaces.
 
-This structure has a major disadvantage: we lost all the comfort of JPA. Lazy loading, gone! We had to send all the associated data to the consumer.
+This structure has a major disadvantage: we lose all the comfort of JPA. Lazy loading, gone! We have to send all the associated data to the consumer.
