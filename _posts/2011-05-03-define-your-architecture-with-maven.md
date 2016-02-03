@@ -3,7 +3,7 @@ title: "Define your Architecture with Maven"
 tags: [maven, architecture]
 ---
 
-Maven is not just a build and dependency management tool, it also offers a way how to define the architecture of your software. You can have your modules in layers like a presentation, a business-logic and a persistence layer. 
+Maven is not just a build and dependency management tool, it also offers a way how to define the architecture of your software. You can have your modules in layers like a presentation, a business-logic and a persistence layer.
 
 Lets suppose your architecture looks like the following image.
 
@@ -155,4 +155,4 @@ The main structure looks as following. The source is available [here](https://gi
 
 
 
-[athene-architecture-image]: /images/blog/Athene-Architecture.png "Athene Architecture"
+[athene-architecture-image]: /images/blog/2011-05-03-athene-architecture.png "Athene Architecture"

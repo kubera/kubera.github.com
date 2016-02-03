@@ -13,7 +13,7 @@ The main requirement was that the representation was in the browser. The three d
 
 The most interesting was the third version with [d3js][d3js] but the problem was the number of edges between nodes exponentially rise getting closer to the present. There were to many edges for the javascript to handle in the browser. The solution was that we suppressed a certain number of edges to be still able to run the script.
 
-![Dynamic Version of the Wiki History Book](/images/blog/wiki-history-book-dynamic.png)
+![Dynamic Version of the Wiki History Book](/images/blog/2014-07-09-wiki-history-book-dynamic.png)
 
 You see the [wiki history book here][wikihistorybook] and the [source code is here][wikihistorybook-source].
 

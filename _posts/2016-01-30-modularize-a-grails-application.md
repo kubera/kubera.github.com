@@ -17,7 +17,7 @@ We definitely needed hot swapping and separated JavaScript files while developme
 
 I saw the [blog of Klaus Lehner][klaus-lehner-blog] and his conclusions of grails in bigger projects. In his article he says that you can not really modularize grails applications. With my experience of extending grails plugins to grails applications, I developed an _prove of concept_ in an modularized web application with a frontend and backend and a common module for both of them. My use-case looks as following:
 
-![examples dependency tree](/images/blog/dependency-tree.dracula.png)
+![examples dependency tree](/images/blog/2016-01-30-dependency-tree.dracula.png)
 
 To have full comfort in development, as described above, the common, front and backend are grails plugins and grails applications. You are able to run each one. The main application bundles front and backend to one application. You can find the [code on github][grails-modular].
 I used the layout example from [mrhaki][mrhaki] and split it into the three modules.
