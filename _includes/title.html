@@ -11,8 +11,9 @@
     <a id="sitename" href="{{site.baseurl}}/">{{site.title}}</a>
   </h1>
 
-  <!-- Add something about you in p tag-->
-  <p>Write something about you here...</p>
+  {% assign randomIndex = site.time | date: "%s%N" | modulo: site.data.quotes.size %}
+  {% assign random = site.data.quotes[randomIndex] %}
+  <p><i>&laquo;{{ random.quote }}&raquo;</i> {{ random.autor }}</p>
   <hr/>
 
   {% include nav-links.html %}
