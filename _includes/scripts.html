@@ -14,9 +14,21 @@
 	}());
 </script>
 <!-- /disqus comment counter -->
-		
-		
-		
+
+<!-- set quotes -->
+<script type="text/javascript">
+  var quotes = [];
+  var authors = [];
+  {% for quote in site.data.quotes %}
+    quotes.push("{{ quote.quote }}");
+    authors.push("{{ quote.author }}");
+  {% endfor %}
+	var random = Math.floor(Math.random() * {{ site.data.quotes.size }});
+  $("#quote").html("&laquo;" + quotes[random] + "&raquo;");
+  $("#quote_author").html(authors[random]);
+</script>
+<!-- /set quotes -->
+
 <!-- google analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,6 +1,22 @@
 - quote: "Truth can only be found in one place: the code."
-  autor: Robert C. Martin alias Uncle Bob
+  author: Robert C. Martin alias Uncle Bob
 - quote: ...if you're afraid to change something it is clearly poorly designed.
-  autor: Martin Fowler
+  author: Martin Fowler
+- quote: Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+  author: Martin Fowler
 - quote: I'm not a great programmer; I'm just a good programmer with great habits.
-  autor: Kent Beck
+  author: Kent Beck
+- quote: A fool with a tool is still a fool.
+  author: Grady Booch
+- quote: The amateur software engineer is always in search of magic.
+  author: Grady Booch
+- quote: Focusing on skills, communications, and community allows the project to be more effective and more agile than focusing on processes and plans.
+  author: Alistair Cockburn
+- quote: We get things wrong before we get things right.
+  author: Alistair Cockburn
+- quote: When in doubt, leave it out.
+  author: Joshua Bloch
+- quote: The cleaner and nicer the program, the faster it's going to run. And if it doesn't, it'll be easy to make it fast.
+  author: Joshua Bloch
+- quote: You can learn more from failure than success. In failure you're forced to find out what part did not work. But in success you can believe everything you did was great, when in fact some parts may not have worked at all. Failure forces you to face reality.
+  author: Fred Brooks
