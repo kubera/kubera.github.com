@@ -15,6 +15,21 @@
 </script>
 <!-- /disqus comment counter -->
 
+<!-- set front -->
+<script type="text/javascript">
+if ($("#front-image").length) {
+  var front = [];  
+  {% for element in site.data.front %}
+    front.push({title: "{{ element.title }}", origin: "{{ element.origin}}", image: "{{ element.image }}" });
+  {% endfor %}
+	var random = Math.floor(Math.random() * {{ site.data.front.size }});
+  $("#front-origin").attr("href", front[random].origin);
+  $("#front-image").attr("title", front[random].title);
+  $("#front-image").attr("src", front[random].image);
+}
+</script>
+<!-- /set front -->
+
 <!-- set quotes -->
 <script type="text/javascript">
   var quotes = [];
