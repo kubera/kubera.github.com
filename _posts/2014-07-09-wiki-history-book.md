@@ -3,7 +3,7 @@ title: "Wiki History Book"
 tags: [graph, d3js, javascript]
 ---
 
-For [Professor Dr. Peter Gloor][gloor] form the [Massachusetts Institute of Technology, MIT][mit], [Center for Collective Intelligence][cci] I had to work out three different versions of an graph representation of the connections between famous people on the [English Wikipedia][en-wikipedia]. A person was represented as a node. As more other persons referred to this person as fatter the node became.
+For [Professor Dr. Peter Gloor][gloor] form the [Massachusetts Institute of Technology, MIT][mit], [Center for Collective Intelligence][cci] I had to work out three different versions of a graph representation of the connections between famous people on the [English Wikipedia][en-wikipedia]. A person was represented as a node. As more other persons referred to this person as fatter the node became.
 
 The main requirement was that the representation was in the browser. The three different versions were:
 
