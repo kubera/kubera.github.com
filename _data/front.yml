@@ -10,7 +10,11 @@
   origin: "https://pixabay.com/de/users/1513015-1513015/" 
   image: "vegetable-1036135_360.jpg" 
 
-- title: from MMT-649797 on pixabay
+- title: from MMT on pixabay
   origin: "https://pixabay.com/de/users/MMT-649797/" 
   image: "graffiti-569265_480.jpg" 
+
+- title: from LyraBelacqua-Sally on pixabay
+  origin: "https://pixabay.com/de/users/LyraBelacqua-Sally-673609/"
+  image: "sample-815141_480.jpg"
 
