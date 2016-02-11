@@ -17,16 +17,22 @@
 
 <!-- set front -->
 <script type="text/javascript">
-if ($("#front-image").length) {
-  var front = [];  
-  {% for element in site.data.front %}
-    front.push({title: "{{ element.title }}", origin: "{{ element.origin}}", image: "{{ element.image }}" });
-  {% endfor %}
-	var random = Math.floor(Math.random() * {{ site.data.front.size }});
-  $("#front-origin").attr("href", front[random].origin);
-  $("#front-image").attr("title", front[random].title);
-  $("#front-image").attr("src", "/images/local/" + front[random].image);
-}
+  var front = [];
+ {% for element in site.data.front %}
+  front.push({user: "{{ element.user }}", origin: "{{ element.origin}}", image: "{{ element.image }}" });
+ {% endfor %}
+
+  function exchangeFront() {
+    var random = Math.floor(Math.random() * {{ site.data.front.size }});
+    $("#front-origin").html(front[random].user);
+    $("#front-origin").attr("href", front[random].origin);
+    $("#front-image").attr("title", front[random].user);
+    $("#front-image").attr("src", "/images/local/" + front[random].image);
+  }
+
+  if ($("#front-image").length) {
+    exchangeFront();
+  }
 </script>
 <!-- /set front -->
 
