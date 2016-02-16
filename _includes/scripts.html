@@ -22,12 +22,23 @@
   front.push({user: "{{ element.user }}", origin: "{{ element.origin}}", image: "{{ element.image }}" });
  {% endfor %}
 
+  var frontIndex = 0;
+
+  function randomFrontIndex() {
+    return Math.floor(Math.random() * {{ site.data.front.size }});
+  }
+
   function exchangeFront() {
-    var random = Math.floor(Math.random() * {{ site.data.front.size }});
-    $("#front-origin").html(front[random].user);
-    $("#front-origin").attr("href", front[random].origin);
-    $("#front-image").attr("title", front[random].user);
-    $("#front-image").attr("src", "/images/local/" + front[random].image);
+    var randomIndex = randomFrontIndex();
+    while(frontIndex === randomIndex) {
+      randomIndex = randomFrontIndex();
+    }
+    frontIndex = randomIndex;
+    
+    $("#front-origin").html(front[randomIndex].user);
+    $("#front-origin").attr("href", front[randomIndex].origin);
+    $("#front-image").attr("title", front[randomIndex].user);
+    $("#front-image").attr("src", "/images/local/" + front[randomIndex].image);
   }
 
   if ($("#front-image").length) {
