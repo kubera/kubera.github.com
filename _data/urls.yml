@@ -1,0 +1,23 @@
+maven:
+  title: Maven
+  url: "https://maven.apache.org/"
+
+java7:
+  title: Java 7
+  url: "https://www.java.com/en/"
+
+groovy:
+  title: Groovy
+  url: "http://www.groovy-lang.org/"
+
+grails:
+  title: Grails 3
+  url: "https://grails.org/"
+
+angular:
+  title: AngularJS
+  angular: "https://angularjs.org/"
+
+typescript:
+  title: TypeScript
+  url: "http://www.typescriptlang.org/"
