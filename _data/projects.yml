@@ -158,8 +158,8 @@
     - Sonar
   category:
     - health furtherance
-  start: 2013-12-31
-  end: 2013-05-01
+  start: 2013-05-01
+  end: 2013-12-31
 
 - name: CTI Special Action, Visualisation of Statistics
   description: Analysis of performace problems in Canoos ULC framework.
