@@ -6,21 +6,21 @@
   employer: Canoo Engineering AG Basel
   employer_url: http://www.canoo.com
   technologies:
-    - Java 7
-    - Groovy
-    - Grails 3
-    - AngularJS
-    - TypeScript
-    - Web (HTML, CSS, Less, JS)
-    - JBoss
-    - Spock
+    - java-7
+    - groovy
+    - grails-3
+    - angularjs
+    - typescript
+    - web-less
+    - jboss
+    - spock
   tools:
-    - SVN
-    - Gradle
-    - Intellij Idea
-    - Continuous Integration with Hudson
-    - Atlassian Jira
-    - Scrum
+    - svn
+    - gradle
+    - idea
+    - ci-hudson
+    - jira
+    - scrum
   category:
     - banking
     - government
@@ -35,21 +35,21 @@
   employer: Canoo Engineering AG Basel
   employer_url: http://www.canoo.com
   technologies:
-    - Java 8
-    - Web-Components Polimer
-    - Spring Boot
-    - Web (HTML, CSS, Sass, JS)
-    - Dolphin-Platform
-    - JPA
+    - java-8
+    - web-components-polymer
+    - spring-boot
+    - web-sass
+    - dolphin
+    - jpa
   tools:
-    - Git
-    - Gradle
-    - Intellij Idea
-    - Atlassian Jira
-    - Scrum
-    - Gitlab
-    - CI Teamcity
-    - Sonar
+    - git
+    - gradle
+    - idea
+    - jira
+    - scrum
+    - gitlab
+    - ci-teamcity
+    - sonar
   category:
     - banking
   start: 2015-06-01
@@ -63,21 +63,21 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute of 4D Technologies
   employer_url: http://www.fhnw.ch/engineering/i4ds/
   technologies:
-    - Java 8
-    - Spring
-    - Spring MVC
-    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Ajax)
-    - JPA
-    - MySql
-    - Tomcat 8
+    - java-8
+    - spring
+    - spring-mvc
+    - web-jquery
+    - jpa
+    - mysql
+    - tomcat-8
   tools:
-    - Git
-    - Maven
-    - Eclipse
-    - Scrum
-    - Gitlab
-    - CI Hudson
-    - Sonar
+    - git
+    - maven
+    - eclipse
+    - scrum
+    - gitlab
+    - ci-hudson
+    - sonar
   category:
     - human resources
   start: 2014-08-01
@@ -91,17 +91,17 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute of 4D Technologies
   employer_url: http://www.fhnw.ch/engineering/i4ds/
   technologies:
-    - Java Applet
-    - Graph Stream
-    - Javascript D3js
-    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Ajax)
-    - SVG
-    - Tomcat 8
+    - java-applet
+    - graph-stream
+    - d3js
+    - web-jquery
+    - svg
+    - tomcat-8
   tools:
-    - Git
-    - Maven
-    - Eclipse
-    - Gitlab
+    - git
+    - maven
+    - eclipse
+    - gitlab
   category:
     - research
   start: 2014-03-01
@@ -115,19 +115,19 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 7
-    - Play framework
-    - Scala
-    - Web (HTML, CSS, jQuery, Twitter Bootstrap)
-    - JPA
-    - multidimensional database OLAP cube
+    - java-7
+    - play-framework
+    - scala
+    - web-twitter-bootstrap
+    - jpa
+    - olap-cube
   tools:
-    - Git
+    - git
     - sbt
-    - Eclipse
-    - Gitlab
-    - CI Hudson
-    - Sonar
+    - eclipse
+    - gitlab
+    - ci-hudson
+    - sonar
   category:
     - health insurance
   start: 2014-01-01
@@ -141,21 +141,21 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 7
-    - Play framework
-    - Scala
-    - Web (HTML, CSS, jQuery, Twitter Bootstrap, Websockets)
-    - JPA
-    - MySql
-    - nginx proxy
+    - java-7
+    - play-framework
+    - scala
+    - web-websockets
+    - jpa
+    - mysql
+    - nginx-proxy
   tools:
-    - Git
+    - git
     - sbt
-    - Eclipse
-    - Scrum
-    - Gitlab
-    - CI Hudson
-    - Sonar
+    - eclipse
+    - scrum
+    - gitlab
+    - ci-hudson
+    - sonar
   category:
     - health furtherance
   start: 2013-05-01
@@ -169,12 +169,12 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 6
-    - Canoo ULC framework based on Java Swing
+    - java-6
+    - ulc
   tools:
-    - SVN
-    - Gradle
-    - Intellij Idea
+    - svn
+    - gradle
+    - idea
   category:
     - framework
   start: 2013-02-01
@@ -188,23 +188,23 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 7
-    - Spring
-    - Spring-MVC
-    - OSGI
-    - NoSql-Graph-Database Neo4j
-    - JSP
-    - Web (HTML, CSS, Dojo, Ajax)
-    - Orix-Webmodeller
+    - java-7
+    - spring
+    - spring-mvc
+    - osgi
+    - neo4j
+    - jsp
+    - web-dojo
+    - oryx
   tools:
-    - Mercurial
-    - Confluence
-    - Jira
-    - Maven
-    - Eclipse
-    - Scrum
-    - CI Jenkins
-    - Sonar
+    - mercurial
+    - confluence
+    - jira
+    - maven
+    - eclipse
+    - scrum
+    - ci-jenkins
+    - sonar
   category:
     - application, monitoring tool
   start: 2012-02-01
@@ -218,17 +218,17 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 6
-    - Spring
-    - Spring-MVC
-    - OSGI
-    - Web (HTML, CSS, Ajax)
-    - Orix-Webmodeller
-    - MySql
+    - java-6
+    - spring
+    - spring-mvc
+    - osgi
+    - web-ajax
+    - oryx
+    - mysql
   tools:
-    - SVN
-    - Maven
-    - Eclipse
+    - svn
+    - maven
+    - eclipse
   category:
     - application, modeling tool
   start: 2011-04-01
@@ -242,10 +242,10 @@
   employer: University of Applied Sciences Northwestern Switzerland FHNW, Institute for Information Systems
   employer_url: http://www.fhnw.ch/business/iwi
   technologies:
-    - Java 6
+    - java-6
   tools:
-    - Protégé
-    - Gate
+    - protege
+    - gate
   category:
     - application, semantic analysis
   start: 2010-06-01
@@ -259,12 +259,12 @@
   employer: Allianz Suisse AG
   employer_url: https://www.allianz.ch/
   technologies:
-    - Java 5
-    - JSP and Ice-Faces
-    - EJB
-    - JBPM
-    - Hibernate
-    - JBoss
+    - java-5
+    - ice-faces
+    - ejb
+    - jbpm
+    - hibernate
+    - jboss
   category:
     - application, monitoring tool
   start: 2009-09-01
@@ -278,16 +278,16 @@
   employer: ETH Inspire
   employer_url: https://www.inspire.ethz.ch/
   technologies:
-    - Java 5
-    - SWT Jameica framework
-    - Matlab builder JA
-    - Domain model generation with EMF
-    - Persistence with EMF
+    - java-5
+    - swt-jameica
+    - matlab-builder-ja
+    - emf-gen-code
+    - emf-persistence
   tools:
-    - Eclipse
-    - SVN
-    - Ant
-    - Trac
+    - eclipse
+    - svn
+    - ant
+    - trac
   category:
     - application, monitoring tool
   start: 2009-03-01
@@ -301,18 +301,18 @@
   employer: Swisslife AG
   employer_url: http://www.swisslife.ch/
   technologies:
-    - Java 4
-    - Java Swing
-    - Weblogic
-    - XSLT
+    - java-4
+    - java-swing
+    - weblogic
+    - xslt
   tools:
-    - Eclipse
-    - Clear-Case
-    - Ant
-    - XMLSpy
-    - SnipSnap
-    - Mercury Testdirector
-    - PL/Sql Developer
+    - eclipse
+    - clear-case
+    - ant
+    - xmlspy
+    - snipsnap
+    - mercury-testdirector
+    - pl-sql-developer
   category:
     - application, monitoring tool
   start: 2005-06-15

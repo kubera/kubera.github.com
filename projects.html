@@ -24,9 +24,9 @@ layout: projects
       <p class="text-muted">{{ project.start | date: "%B %Y" }} - {{ project.end | date: "%B %Y" }}</p>
       <p class="text-muted">Build for: <a href="{{ project.client_url }}">{{ project.client }}</a></p>
       <p class="text-muted">Employed at: <a href="{{ project.employer_url }}">{{ project.employer }}</a></p>
-      <p class="text-muted">Technologies: {{ project.technologies | join: ', ' }}</p>
+      <p class="text-muted">Technologies:&nbsp;{% for technology in project.technologies %}<a href="{{ site.data.urls[technology].url }}" target="blank">{{ site.data.urls[technology].title }}</a>{% if forloop.index < project.technologies.size %},&nbsp;{% endif %}{% endfor %}</p>
       {% if project.tools %}
-      <p class="text-muted">Tools: {{ project.tools | join: ', ' }}</p>
+      <p class="text-muted">Tools:&nbsp;{% for tool in project.tools %}<a href="{{ site.data.urls[tool].url }}" target="blank">{{ site.data.urls[tool].title }}</a>{% if forloop.index < project.tools.size %},&nbsp;{% endif %}{% endfor %}</p>
       {% endif %}
     </div>
   {% if mod == 0 %}

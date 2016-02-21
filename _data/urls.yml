@@ -1,23 +1,375 @@
-maven:
-  title: Maven
-  url: "https://maven.apache.org/"
+angularjs:
+  title: AngularJS
+  url: "https://angularjs.org/"
+  category: technologies
 
-java7:
-  title: Java 7
-  url: "https://www.java.com/en/"
+ulc:
+  title: Canoo ULC framework based on Java Swing
+  url: "https://ulc.canoo.com/"
+  category: technologies
+
+dolphin:
+  title: Dolphin-Platform
+  url: "http://open-dolphin.org/"
+  category: technologies
+
+emf-gen-code:
+  title: code generation with EMF
+  url: "https://eclipse.org/modeling/emf/"
+  category: technologies
+
+ejb:
+  title: EJB
+  url: "https://en.wikipedia.org/wiki/Enterprise_JavaBeans"
+  category: technologies
+
+grails-3:
+  title: Grails 3
+  url: "https://grails.org/"
+  category: technologies
+
+graph-stream:
+  title: Graph Stream
+  url: "http://graphstream-project.org/"
+  category: technologies
 
 groovy:
   title: Groovy
   url: "http://www.groovy-lang.org/"
+  category: technologies
 
-grails:
-  title: Grails 3
-  url: "https://grails.org/"
+hibernate:
+  title: Hibernate
+  url: "http://hibernate.org/"
+  category: technologies
 
-angular:
-  title: AngularJS
-  angular: "https://angularjs.org/"
+jbpm:
+  title: JBPM
+  url: "http://www.jbpm.org/"
+  category: technologies
+
+jboss:
+  title: JBoss
+  url: "http://www.jboss.org/"
+  category: technologies
+
+jpa:
+  title: JPA
+  url: "https://en.wikipedia.org/wiki/Java_Persistence_API"
+  category: technologies
+
+jsp:
+  title: JSP
+  url: "https://en.wikipedia.org/wiki/JavaServer_Pages"
+  category: technologies
+
+ice-faces:
+  title: JSP and Ice-Faces
+  url: "http://www.icesoft.org/java/projects/ICEfaces/overview.jsf"
+  category: technologies
+
+java-4:
+  title: Java 4
+  url: "https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.4"
+  category: technologies
+
+java-5:
+  title: Java 5
+  url: "https://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0"
+  category: technologies
+
+java-6:
+  title: Java 6
+  url: "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6"
+  category: technologies
+
+java-7:
+  title: Java 7
+  url: "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7"
+  category: technologies
+
+java-8:
+  title: Java 8
+  url: "https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8"
+  category: technologies
+
+java-applet:
+  title: Java Applet
+  url: "https://en.wikipedia.org/wiki/Java_applet"
+  category: technologies
+
+java-swing:
+  title: Java Swing
+  url: "https://en.wikipedia.org/wiki/Swing_%28Java%29"
+  category: technologies
+
+d3js:
+  title: Javascript D3js
+  url: "https://d3js.org/"
+  category: technologies
+
+matlab-builder-ja:
+  title: Matlab builder JA
+  url: "http://www.mathworks.com/products/matlab-compiler-sdk/"
+  category: technologies
+
+mysql:
+  title: MySql
+  url: "http://dev.mysql.com/"
+  category: technologies
+
+neo4j:
+  title: NoSql-Graph-Database Neo4j
+  url: "http://neo4j.com/"
+  category: technologies
+
+osgi:
+  title: OSGI
+  url: "https://www.osgi.org/"
+  category: technologies
+
+oryx:
+  title: Oryx-Webmodeller
+  url: "http://bpt.hpi.uni-potsdam.de/Oryx/"
+  category: technologies
+
+emf-persistence:
+  title: Persistence with EMF
+  url: "https://eclipse.org/modeling/emf/"
+  category: technologies
+
+play-framework:
+  title: Play framework
+  url: "https://www.playframework.com/"
+  category: technologies
+
+svg:
+  title: SVG
+  url: "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics"
+  category: technologies
+
+swt-jameica:
+  title: SWT Jameica framework
+  url: "https://www.willuhn.de/products/jameica/"
+  category: technologies
+
+scala:
+  title: Scala
+  url: "http://www.scala-lang.org/"
+  category: technologies
+
+spock:
+  title: Spock
+  url: "https://github.com/spockframework"
+  category: technologies
+
+spring:
+  title: Spring
+  url: "https://spring.io/"
+  category: technologies
+
+spring-boot:
+  title: Spring Boot
+  url: "http://projects.spring.io/spring-boot/"
+  category: technologies
+
+spring-mvc:
+  title: Spring MVC
+  url: "https://spring.io/guides/gs/serving-web-content/"
+  category: technologies
+
+tomcat-8:
+  title: Tomcat 8
+  url: "http://tomcat.apache.org/"
+  category: technologies
 
 typescript:
   title: TypeScript
   url: "http://www.typescriptlang.org/"
+  category: technologies
+
+web-ajax:
+  title: Web (HTML, CSS, Ajax)
+  url: "http://www.w3schools.com/ajax/"
+  category: technologies
+
+web-dojo:
+  title: Web (HTML, CSS, Dojo, Ajax)
+  url: "https://dojotoolkit.org/"
+  category: technologies
+
+web-less:
+  title: Web (HTML, CSS, Less, JS)
+  url: "http://lesscss.org/"
+  category: technologies
+
+web-sass:
+  title: Web (HTML, CSS, Sass, JS)
+  url: "http://sass-lang.com/"
+  category: technologies
+
+web-twitter-bootstrap:
+  title: Web (HTML, CSS, jQuery, Twitter Bootstrap)
+  url: "http://getbootstrap.com/"
+  category: technologies
+
+web-jquery:
+  title: Web (HTML, CSS, jQuery, Twitter Bootstrap, Ajax)
+  url: "https://jquery.com/"
+  category: technologies
+
+web-websockets:
+  title: Web (HTML, CSS, jQuery, Twitter Bootstrap, Websockets)
+  url: "https://en.wikipedia.org/wiki/WebSocket"
+  category: technologies
+
+web-components-polymer:
+  title: Web-Components Polymer
+  url: "https://www.polymer-project.org/1.0/"
+  category: technologies
+
+weblogic:
+  title: Weblogic
+  url: "http://www.oracle.com/technetwork/middleware/weblogic/overview/"
+  category: technologies
+
+xslt:
+  title: XSLT
+  url: "http://www.w3schools.com/xsl/"
+  category: technologies
+
+olap-cube:
+  title: multidimensional database OLAP cube
+  url: "https://en.wikipedia.org/wiki/OLAP_cube"
+  category: technologies
+
+nginx-proxy:
+  title: NGiNX Proxy
+  url: "https://www.nginx.com/"
+  category: technologies
+
+ant:
+  title: Ant
+  url: "http://ant.apache.org/"
+  category: tools
+
+jira:
+  title: Atlassian Jira
+  url: "https://www.atlassian.com/software/jira"
+  category: tools
+
+ci-hudson:
+  title: Continuous Integration with Hudson
+  url: "http://hudson-ci.org/"
+  category: tools
+
+ci-jenkins:
+  title: Continuous Integration with  Jenkins
+  url: "https://jenkins-ci.org/"
+  category: tools
+
+ci-teamcity:
+  title: Continuous Integration with  Teamcity
+  url: "https://www.jetbrains.com/teamcity/"
+  category: tools
+
+clear-case:
+  title: Clear-Case
+  url: "http://www-03.ibm.com/software/products/en/clearcase/"
+  category: tools
+
+confluence:
+  title: Confluence
+  url: "https://www.atlassian.com/software/confluence"
+  category: tools
+
+eclipse:
+  title: Eclipse
+  url: "https://eclipse.org/"
+  category: tools
+
+gate:
+  title: Text Retrieval with GATE
+  url: "https://gate.ac.uk/"
+  category: tools
+
+git:
+  title: Git
+  url: "https://git-scm.com/"
+  category: tools
+
+gitlab:
+  title: Gitlab
+  url: "https://about.gitlab.com/"
+  category: tools
+
+gradle:
+  title: Gradle
+  url: "http://gradle.org/"
+  category: tools
+
+intellij-idea:
+  title: Intellij Idea
+  url: "https://www.jetbrains.com/idea/"
+  category: tools
+
+maven:
+  title: Maven
+  url: "https://maven.apache.org/"
+  category: tools
+
+mercurial:
+  title: Mercurial
+  url: "https://www.mercurial-scm.org/"
+  category: tools
+
+mercury-testdirector:
+  title: Mercury Testdirector
+  url: "http://www8.hp.com/us/en/software-solutions/quality-center-quality-management/"
+  category: tools
+
+pl-sql-developer:
+  title: PL/Sql Developer
+  url: "http://www.allroundautomations.com/plsqldev.html"
+  category: tools
+
+protege:
+  title: Protégé
+  url: "http://protege.stanford.edu/"
+  category: tools
+
+svn:
+  title: SVN
+  url: "https://subversion.apache.org/"
+  category: tools
+
+scrum:
+  title: Scrum
+  url: "https://en.wikipedia.org/wiki/Scrum_%28software_development%29"
+  category: tools
+
+snipsnap:
+  title: SnipSnap
+  url: "http://snipsnap.org/"
+  category: tools
+
+sonar:
+  title: Sonar
+  url: "http://www.sonarqube.org/"
+  category: tools
+
+trac:
+  title: Trac
+  url: "https://trac.edgewall.org/"
+  category: tools
+
+xmlspy:
+  title: XMLSpy
+  url: "http://www.altova.com/de/xmlspy.html"
+  category: tools
+
+sbt:
+  title: sbt
+  url: "http://www.scala-sbt.org/"
+  category: tools
+
