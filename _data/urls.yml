@@ -308,7 +308,7 @@ gradle:
   url: "http://gradle.org/"
   category: tools
 
-intellij-idea:
+idea:
   title: Intellij Idea
   url: "https://www.jetbrains.com/idea/"
   category: tools
