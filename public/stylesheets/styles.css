@@ -371,3 +371,7 @@ footer .right{
 #title #sitename,.resume span,.resume h2 {
   color: #EC4E3B;
 }
+
+.highlighter-rouge {
+  background-color: #1d1d1f;
+}
