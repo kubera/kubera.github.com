@@ -3,7 +3,7 @@ title: "Mavenize an Ant Application"
 tags: [maven, ant, svn, git]
 ---
 
-We're changing our modularized application at work from building with Ant and deploying all manually to Maven. The requirements to that process is:
+We're changing our modularized application at work from building and deploying with Ant to Maven. The requirements to that process is:
 
 * my colleagues can go on working without being involved in that task
 * not loosing any _svn_ history
