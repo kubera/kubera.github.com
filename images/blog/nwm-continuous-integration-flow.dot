@@ -1,0 +1,33 @@
+// This describes the workflow of the continuous integration process in NWM
+//
+// Graphviz is used to generate an graph image (http://www.graphviz.org/)
+// use the following command in a unix shell
+// dot -Tpng nwm-continuous-integration-flow.dot -o nwm-continuous-integration-flow.png
+
+digraph G {
+    bgcolor="#222A30"
+    edge[color="#A3BFC6", fontcolor="#A3BFC6"]
+    node[color="#A3BFC6", fontcolor="#A3BFC6"]
+
+    developer1 -> gitrepo [label=" 1 - Push to Feature-Branch "];
+    developer1 -> stash [label=" 2 - Create Pull-Request "];
+    stash -> developer2 [label=" 2 - Request for Review "];
+    developer2 -> stash [label=" 3 - Approve Pull-Request "];
+    stash -> gitrepo [label=" 4 - Merge to Develop-Branch "];
+    gitrepo -> jenkins [label=" 5 - Trigger Build Continuously"];
+    jenkins -> gitrepo [label=" 6 - Pull latest from Develop-Branch "];
+    jenkins -> nexus [label=" 7 - Store Snapshot "];
+    jenkins -> ansible [label=" 8 - Trigger Deploy Nightly"];
+    ansible -> gitrepo [label=" 9 - Pull WAS-Config from Develop-Branch "];
+    ansible -> nexus [label=" 10 - Download Snapshot EAR "];
+    ansible -> was [label=" 11 - Install Snapshot on DEV environment "];
+    
+    developer1 [label="Developer 1"];
+    developer2 [label="Developer 2"];
+    stash [label="Bitbucket", shape="tab"];
+    gitrepo [label="Git-Repository", shape="folder"];
+    jenkins [label="Jenkins-Job", shape="tab"];
+    nexus [label="Nexus", shape="folder"];
+    ansible [label="Ansible-Job", shape="tab"];
+    was [label="Websphere", shape="component"];
+}

@@ -1,0 +1,28 @@
+// This describes the old world of NWM, its tools and applications
+//
+// Graphviz is used to generate an graph image (http://www.graphviz.org/)
+// use the following command in a unix shell
+// dot -Tpng nwm-old-world.dot -o nwm-old-world.png
+
+digraph G {
+    bgcolor="#222A30"
+    edge[color="#A3BFC6", fontcolor="#A3BFC6"]
+    node[color="#A3BFC6", fontcolor="#A3BFC6"]
+
+    developer1 -> developer2 [label=" 1 - Review Code Changes "];
+    developer1 -> svn [label=" 2 - Commit Code Changes "];
+    developer1 -> eclipse [label=" 3 - Build EAR "];
+    developer1 -> wasdev [label=" 4 - Deploy EAR "];
+    developer1 -> ftp [label=" 5 - Ship EAR "];
+    om -> ftp [label=" 6 - Get EAR "];
+    om -> wastest [label=" 7 - Deploy EAR "];
+    
+    developer1 [label="Developer 1"];
+    developer2 [label="Developer 2"];
+    om [label="OM"];
+    svn [label="Subversion", shape="folder"];
+    ftp [label="FTP Shipping Directory", shape="tab"];
+    eclipse [label="IDE Eclipse", shape="folder"];
+    wasdev [label="Websphere DEV", shape="component"];
+    wastest [label="Websphere TEST", shape="component"];
+}
