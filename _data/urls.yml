@@ -348,6 +348,11 @@ scrum:
   url: "https://en.wikipedia.org/wiki/Scrum_%28software_development%29"
   category: tools
 
+kanban:
+  title: Kanban
+  url: "https://en.wikipedia.org/wiki/Kanban"
+  category: tools
+
 snipsnap:
   title: SnipSnap
   url: "http://snipsnap.org/"
@@ -372,4 +377,31 @@ sbt:
   title: sbt
   url: "http://www.scala-sbt.org/"
   category: tools
+
+ansible:
+  title: Ansible Automation Engine 
+  url: "https://www.ansible.com/"
+  category: tools
+
+toplink:
+  title: Oracle Toplink
+  url: "http://www.oracle.com/technetwork/middleware/toplink/overview/index.html"
+  category: technologies
+
+oracle-sql:
+  title: Oracle PL/SQL
+  url: "http://www.oracle.com"
+  category: technologies
+
+websphere:
+  title: IBM WebSphere Application Server
+  url: "http://www-03.ibm.com/software/products/de/appserv-was"
+  category: technologies
+
+websphere:
+  title: IBM WebSphere MQ
+  url: "https://en.wikipedia.org/wiki/IBM_WebSphere_MQ"
+  category: technologies
+
+
 

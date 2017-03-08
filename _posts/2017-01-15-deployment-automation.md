@@ -14,13 +14,13 @@ The deployment looked like this before:
 1. a developer made some changes to the code base, after he made a code review on his desk, or he didn't ...
 2. he commited the changes to SVN
 3. now he had to build the whole thing with Ant, twice, because of some cross-over dependencies, there were actually two application in this package; the then the same build again for the batch application which contained similar modules; well and building again the same EARs with the source files
-4. then manual deployment on the development environment with the websphere admin console
+4. then manual deployment on the development environment with the websphere administrator console
 5. then shipping the EARs and lots of other documents to operation
-6. OM did the some again for the test environment (after approval, they shiped it to the external operation for the integration and production envrionment); cool, isn't it?
+6. OM did the some again for the test environment (after approval, they shipped it to the external operation for the integration and production environment); cool, isn't it?
 
 For an developer who has seen an automated world, this was no acceptable state for the application we worked with. 
 
-So I got some buget to make my changes as I know from other project, nothing fancy, just the usual java defaults:
+So I got some budget to make my changes as I know from other project, nothing fancy, just the usual java defaults:
 
 ![automated deployment](/images/blog/2017-01-15-nwm-continuous-integration-flow.png)
 
@@ -33,7 +33,7 @@ The new world looks as followed:
 5. a hock triggers a build on Jenkins
 6. Jenkins gets the latest state from develop branch and builds the artifacts including running very few unit tests
 7. artifacts get stored in Nexus
-8. in the night, the deployment gets triggert from Jenkins to Ansible 
+8. in the night, the deployment gets triggered from Jenkins to Ansible 
 9. Ansible gets the latest Websphere configuration for our application
 10. Ansible gets the latest snapshot artifacts
 11. the applications get installed on Websphere and started

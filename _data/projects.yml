@@ -1,3 +1,33 @@
+- name: NWM Feature Implementation and Automating
+  description: SBB-Cargo change the cargo transports to fixed schedule, several transports a day instead one per night. Therefore we had to do make some changes in several applications running on IBM-Websphere application server. We implemented some new features and automated the deployment process to standard java tools. 
+  project_url: http://www.sbbcargo.com/de/kundencenter/e-services/cis-online.html
+  client: SBB-Cargo AG
+  client_url: http://www.sbbcargo.com
+  employer: Fincons Group Schweiz
+  employer_url: http://www.finconsgroup.com/
+  technologies:
+    - java-7
+    - jsp
+    - ejb
+    - toplink
+    - websphere
+    - ibm-mq
+    - oracle-sql
+  tools:
+    - git
+    - maven
+    - ant
+    - jenkins
+    - ansible
+    - kanban
+    - pl-sql-developer
+    - eclipse
+    - idea
+  category:
+    - transport
+  start: 2016-02-01
+  end: 2017-12-31
+
 - name: ePublications
   description: Statistical economical data, which were published before in print version, are now browsable online in dynamic tables.
   project_url: http://data.snb.ch
