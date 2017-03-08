@@ -1,5 +1,5 @@
 - name: NWM Feature Implementation and Automating
-  description: SBB-Cargo change the cargo transports to fixed schedule, several transports a day instead one per night. Therefore we had to do make some changes in several applications running on IBM-Websphere application server. We implemented some new features and automated the deployment process to standard java tools. 
+  description: The Swiss Federal Railways changed the cargo transport to a fixed schedule, several transports a day instead one per night. Therefore we had to make some changes in several applications running on IBM-Websphere application server. We implemented some new features and automated the deployment process to standard java tools. 
   project_url: http://www.sbbcargo.com/de/kundencenter/e-services/cis-online.html
   client: SBB-Cargo AG
   client_url: http://www.sbbcargo.com
