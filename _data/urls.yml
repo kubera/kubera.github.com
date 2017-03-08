@@ -398,7 +398,7 @@ websphere:
   url: "http://www-03.ibm.com/software/products/de/appserv-was"
   category: technologies
 
-websphere:
+ibm-mq:
   title: IBM WebSphere MQ
   url: "https://en.wikipedia.org/wiki/IBM_WebSphere_MQ"
   category: technologies
