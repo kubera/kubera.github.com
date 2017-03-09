@@ -3,7 +3,7 @@ title: "Automation, automation, automation ..."
 tags: [maven, jenkins, ansible, git, svn, stash, ant, websphere, jenkins, nexus, ansible]
 ---
 
-I was hired to make some changes in an old J2EE application, which actually was very nice designed, state of the arte at its time but the company never updated the base technologies. It lied on EJB 2.1 with giant XML configuration files, Toplink ORM and Ant as the build system. The deployment was fully manual.
+I've been hired to make some changes in an old J2EE application, which actually was very nice designed, state of the arte at its time but the company never updated the base technologies. It lied on EJB 2.1 with giant XML configuration files, Toplink ORM and Ant as the build system. The deployment was fully manual.
 
 I was able to convince my client to invest in some automation. Manual periodic work is *error-prone and boring*. 
 
@@ -38,4 +38,4 @@ The new world looks as followed:
 10. Ansible gets the latest snapshot artifacts
 11. the applications get installed on Websphere and started
 
-That's the way we want to work, right?
+That's how we want to work, right?

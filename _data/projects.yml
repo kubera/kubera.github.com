@@ -1,5 +1,5 @@
 - name: NWM Feature Implementation and Automating
-  description: The Swiss Federal Railways changed the cargo transport to a fixed schedule, several transports a day instead one per night. Therefore we had to make some changes in several applications running on IBM-Websphere application server. We implemented some new features and automated the deployment process to standard java tools. 
+  description: The Swiss Federal Railways has changed the cargo transport to a fixed schedule, i.e., several shipments per day as opposed to one per night. For this purpose, We've changed several applications that ran on IBM-Websphere application server. Furthermore we've implemented some new features and automated the deployment process to standard java tools. 
   project_url: http://www.sbbcargo.com/de/kundencenter/e-services/cis-online.html
   client: SBB-Cargo AG
   client_url: http://www.sbbcargo.com
@@ -30,7 +30,7 @@
   end: 2017-12-31
 
 - name: ePublications
-  description: Statistical economical data, which were published before in print version, are now browsable online in dynamic tables.
+  description: Statistical economical data - that has been published before in print version - is now browsable online in dynamic tables.
   project_url: http://data.snb.ch
   client: Swiss National Bank SNB
   client_url: http://snb.ch
@@ -115,7 +115,7 @@
   end: 2015-05-31
 
 - name: Research Project Wiki History Book
-  description: Base on a student project, which calculats the links between famous people in the english wikipedias, building three versions of a graphical representation.
+  description: Based on a student project that calculates the links among famous people in the English version of Wikipedia by building three versions of a graphical representation.
   project_url: http://ol19ns18004.fhnw.ch:8080/wikihistorybook/json-d3js/
   client: Professor Dr. Peter Gloor from the MIT
   client_url: http://cci.mit.edu/pgloor/
@@ -139,7 +139,7 @@
   end: 2014-07-31
 
 - name: Reporting tool for a health insurance
-  description: Analyzing the telephone logging entries with an OLAP data structure.
+  description: Analysis of the telephone logging entries with an OLAP data structure.
   project_url:
   client: Swica Krankenversicherung
   client_url: http://www.swica.ch/
@@ -165,7 +165,7 @@
   end: 2014-02-28
 
 - name: CTI Research Project Furtherance of Health at Work
-  description: Webapp for jung people at work to improve there health and detect health problems early (development and operation).
+  description: Webapp for working young people to improve their health and detect health issues at an early stage (development and operation).
   project_url: http://www.companion-app.ch/
   client: Gesundheitsförderung Schweiz
   client_url: http://gesundheitsfoerderung.ch/
@@ -212,7 +212,7 @@
   end: 2013-04-30
 
 - name: CTI Research Project eRanger
-  description: Development of a Modelling Notation and Modelling Application.
+  description: Development of a Modelling Notation and Modelling Application as well.
   project_url: https://www.junisphere.net/solution/erealityr-suite/
   client: Junisphere Systems AG
   client_url: https://www.junisphere.net/
@@ -266,7 +266,7 @@
   end: 2012-01-31
 
 - name: CTI Research Project DokLife
-  description: Semantic analysis of documents like contracts with automated tagging with metadata.
+  description: Semantic analysis of documents such as contracts with automated tagging with metadata.
   project_url:
   client: Symfact AG
   client_url: http://www.symfact.com/
@@ -283,7 +283,7 @@
   end: 2010-03-31
 
 - name: Allianz Collective Life
-  description: Development and maintenance of the web appllication supporting the seconed pillar department.
+  description: Development and maintenance of the web appllication that supported the seconed pillar department.
   project_url: https://www.allianz.ch/de/unternehmenskunden/
   client_url: https://www.allianz.ch/
   client: Allianz Suisse AG
@@ -302,7 +302,7 @@
   end: 2010-05-31
 
 - name: ETH Inspire
-  description: Developing of a Java-GUI using existing matlab functions.
+  description: Developing of a Java-GUI by using existing matlab functions.
   project_url:
   client_url: https://www.inspire.ethz.ch/
   client: ETH Inspire

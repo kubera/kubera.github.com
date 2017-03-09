@@ -3,9 +3,9 @@ title: "Groovy is awesome!"
 tags: [groovy, grails, gradle]
 ---
 
-In my last project, we used Grails 3 which uses _groovy_ as the main technology. With groovy you can really focus on your business problems. You have very little boilerplate code.
+In my last project, we used Grails 3 that uses _groovy_ as the main technology. With groovy you can really focus on your business problems. You have very little boilerplate code.
 
-Here some cool stuff I really like in groovy.
+Here it is some cool stuff I really like in groovy.
 
 Working with strings:
 {% highlight groovy %}

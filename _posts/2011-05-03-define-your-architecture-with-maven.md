@@ -3,7 +3,7 @@ title: "Define your Architecture with Maven"
 tags: [maven, architecture]
 ---
 
-Maven is not just a build and dependency management tool, it also offers a way how to define the architecture of your software. You can have your modules in layers like a presentation, a business-logic and a persistence layer.
+Maven is not just a build and dependency management tool, it also offers a way to define the architecture of your software. You can have your modules in layers such as a presentation, a business-logic and a persistence layer.
 
 Lets suppose your architecture looks like the following image.
 
@@ -24,7 +24,7 @@ The maven root _pom.xml_ defines the layers and the domain model, which is acces
 </project>
 {% endhighlight %}
 
-Now, you can define layer specific dependencies in a layer _pom.xml_. With this possibility your root _pom.xml_ will be less crowded. I experienced projects where the root _pom.xml_ was totally full with declaration that it was hard to read the file.
+Now, you can define layer specific dependencies in a layer _pom.xml_. With this possibility your root _pom.xml_ will be less crowded. I've experienced projects where the root _pom.xml_ was totally full with declaration that it was hard to read the file.
 
 {% highlight xml %}
 <project>
