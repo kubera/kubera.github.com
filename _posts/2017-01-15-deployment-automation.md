@@ -1,6 +1,6 @@
 ---
 title: "Automation, automation, automation ..."
-tags: [maven, jenkins, ansible, git, svn, stash, ant, websphere, jenkins, nexus, ansible]
+tags: [maven, jenkins, ansible, git, svn, stash, ant, websphere, nexus]
 ---
 
 I've been hired to make some changes in an old J2EE application, which actually was very nice designed, state of the arte at its time but the company never updated the base technologies. It lied on EJB 2.1 with giant XML configuration files, Toplink ORM and Ant as the build system. The deployment was fully manual.
