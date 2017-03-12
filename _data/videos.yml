@@ -1,0 +1,20 @@
+- name: Martin, Robert C. (2015, May 23). SOLID Principles of Object Oriented and Agile Design
+  description: Oncle Bob talks so much out of my heart, I totaly agree with what he says. He is the icon in the software engineering world. 
+  video_id: TMuno5RZNeE
+  watched: 2015-02-01
+
+- name: Humble Jez (2016, May 4). Why Scaling Agile Doesn't Work
+  description: Jez describe exactly the situation my current employer is in - very stiff deployment structures. He shows how far many companies still are from a fast and flexible delivery process. 
+  video_id: 2zYxWEZ0gYg
+  watched: 2016-05-04
+
+- name: Kleppmann, Martin (2015, Sep 27). Transactions; myths, surprises and opportunities
+  description: Martin takes a critical look at the term ACID. Well explained and great slides. 
+  video_id: 5ZjhNTM8XU8
+  watched: 2015-09-27
+
+- name: McDaniel, Conner (2013, Jan 26). Understanding how sed works 1/4
+  description: Conner explains the Unix command Sed in four episodes. Good explanation!
+  video_id: NYGI5xh4Llc
+  watched: 2013-01-26
+

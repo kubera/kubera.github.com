@@ -1,0 +1,35 @@
+- name: Martin, Robert C. (2008, August). Clean Code, A Handbook of Agile Software Craftsmanship
+  description: This is the bibel for a software developer. If you haven't read it, you are not a developer ;-)
+  url: http://search.barnesandnoble.com/Clean-Code/Robert-C-Martin/e/9780132350884/?itm=1&USRI=robert+c+martin
+  read: 2008-08-01
+
+- name: Prinz, Peter et al. (1999). C++ lernen und professionell anwenden
+  description: The book I learnd programming from.
+  url: https://www.amazon.de/lernen-professionell-anwenden-Peter-Prinz/dp/3826608240
+  read: 1999-12-31
+
+- name: Gamma, Erich et al. (2004). Design patterns, elements of reusable object-oriented software
+  description: Must read for any software developer.
+  url: https://www.amazon.de/Design-patterns-elements-reusable-object-oriented/dp/8131700070/ref=sr_1_2
+  read: 2004-12-31
+
+- name: Oechsle, Rainer (2011). Parallele und verteilte Anwendungen in Java
+  description: Very informative about asynchronous systems. Lots of code examples. Was a pleasure to read.
+  url: http://www.hanser-fachbuch.de/buch/Parallele+und+verteilte+Anwendungen+in+Java/9783446438880
+  read: 2011-12-31
+
+- name: Fildebrandt, Ulf (2012). Software modular bauen
+  description: This book gave me the necessary awareness of modularity in software architecture 
+  url: https://www.dpunkt.de/buecher/10384/9783864900198-software-modular-bauen.html
+  read: 2012-08-01
+
+- name: Springer, Sebastian (2015). Testgetriebene Entwicklung mit JavaScript
+  description: You get a good overview of testing in web development. 
+  url: https://www.dpunkt.de/buecher/11638/Testgetriebene%20Entwicklung%20mit%20JavaScript.html
+  read: 2015-12-31
+
+- name: Bloch, Joshua (2008). Effective Java 
+  description: Deep dive into Java. Great book!
+  url: https://www.orellfuessli.ch/shop/home/rubrikartikel/ID14430499.html?ProvID=10917751
+  read: 2008-08-05
+

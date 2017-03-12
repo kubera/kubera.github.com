@@ -33,4 +33,8 @@ layout: projects
     </div>
   {% endif %}
 {% endfor %}
+{% assign even = site.data.projects.size | modulo: 2 %}
+{% if mod == 1 %}
+    </div>
+{% endif %}
 </div>

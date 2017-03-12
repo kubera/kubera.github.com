@@ -1,0 +1,57 @@
+---
+title: references
+permalink: "references/index.html"
+---
+
+<h1>References</h1>
+<h2>Books</h2>
+<p>Some cool books, which really mattered im my career as a software developer.</p>
+<div>
+{% assign books = site.data.books | sort: 'read' %}
+{% for book in books reversed %}
+  {% assign mod = forloop.index | modulo: 2 %}
+
+  {% if mod == 1 %}
+    <div class="row">
+  {% endif %}
+    <div class="col-md-6 post-nav">
+	<h3><a href="{{ book.url }}" >{{ book.name }}</a></h3>
+	<p>{{ book.description }}</p>
+        <br>
+    </div>
+  {% if mod == 0 %}
+    </div>
+  {% endif %}
+{% endfor %}
+{% assign even = site.data.books.size | modulo: 2 %}
+{% if mod == 1 %}
+    </div>
+{% endif %}
+</div>
+<br>
+<h2>Videos</h2>
+<p>Here some videos which are recommendable to watch</p>
+<div>
+{% assign videos = site.data.videos | sort: 'watched' %}
+{% for video in videos reversed %}
+  {% assign mod = forloop.index | modulo: 2 %}
+
+  {% if mod == 1 %}
+    <div class="row">
+  {% endif %}
+    <div class="col-md-6 post-nav">
+	<h3>{{ video.name }}</h3>
+	<p>{{ video.description }}</p>
+	<iframe width="440" height="248" src="https://www.youtube.com/embed/{{ video.video_id }}" frameborder="0" allowfullscreen></iframe>
+        <br>
+        <br>
+    </div>
+  {% if mod == 0 %}
+    </div>
+  {% endif %}
+{% endfor %}
+{% assign even = site.data.videos.size | modulo: 2 %}
+{% if mod == 1 %}
+    </div>
+{% endif %}
+</div>
